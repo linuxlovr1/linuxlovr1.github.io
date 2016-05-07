@@ -47,12 +47,25 @@ table {
   border-spacing: 0;
 }*/
 
+body {
 
-.parallax-container {
-  height: 90vh;
 }
 
-.background {
-  height: fill;
-  width: fill;
+.nav_wrapper {
+  color: blue;
+}
+
+#background {
+  height: 100%;
+  width: 100%;
+}
+
+#me {
+  display: block;
+  margin-top: 300px;
+  margin-left: 500px;
+  justify-content: center;
+  height: 340px;
+  transform: rotate(90deg);
+  border-radius: 100%;
 }
