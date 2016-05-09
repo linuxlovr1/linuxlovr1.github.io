@@ -47,22 +47,33 @@ table {
   border-spacing: 0;
 }*/
 
-body {
-
+main {
+    flex: 1 0 auto;
 }
 
-.nav_wrapper {
-  color: blue;
+body {
+  background: url(../assets/images/background.jpg);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+nav {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 #background {
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
 
 #me {
   display: block;
-  margin-top: 300px;
+  margin-top: 100px;
   margin-left: 500px;
   justify-content: center;
   height: 340px;
