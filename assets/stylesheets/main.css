@@ -52,7 +52,7 @@ main {
 }
 
 body {
-  background: url(../images/background.jpg);
+  background: url(../images/background2.jpg);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -72,15 +72,26 @@ nav {
 }
 
 #me {
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   margin-top: 100px;
-  margin-left: 560px;
   justify-content: center;
-  height: 240px;
-  transform: rotate(90deg);
   border-radius: 100%;
+  width: 20%;
+}
+
+#responsive {
+  max-width: 100%;
+  top: 10%;
+  left: 10%;
+  border-radius: 3px;
 }
 
 #icons {
   padding-top: 80px;
+}
+
+a {
+  color: white;
 }
