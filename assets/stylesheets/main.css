@@ -52,7 +52,8 @@ main {
 }
 
 body {
-  background: url(../images/background2.jpg);
+  background-color: black;;
+  /*background: url(../images/background2.jpg);*/
   display: flex;
   min-height: 100vh;
   flex-direction: column;
